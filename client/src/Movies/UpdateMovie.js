@@ -66,4 +66,4 @@ const UpdateMovie = (props) => {
   );
 };
 
-export default UpdateMovie;
+export default UpdateMovie
