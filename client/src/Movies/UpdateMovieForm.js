@@ -26,7 +26,7 @@ export default function UpdateMovieForm({ listMovies, match, updateMovie }) {
                 Metascore
                 <Field name="metascore" type="text" />
               </label>
-              {/* <FieldArray
+              <FieldArray
                 name="stars"
                 render={arrayHelpers => {
                   return (
@@ -37,7 +37,7 @@ export default function UpdateMovieForm({ listMovies, match, updateMovie }) {
                     </div>
                   );
                 }}
-              /> */}
+              />
               <button type="submit">Submit</button>
             </Form>
           );
